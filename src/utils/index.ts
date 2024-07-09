@@ -21,7 +21,6 @@ export function checkForDraw(cells:string[]){
         return false
     }
     return true;
-    
 }
 
 export function evaluate(cells: string[]) {

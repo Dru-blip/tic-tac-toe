@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className='min-h-screen flex items-center justify-center flex-col'>
-      <div className="flex items-center justify-around text-white w-full">
+      <div className="flex  items-center justify-around text-white w-full">
         <div className="border-4 rounded-xl w-[200px] border-green-500 p-5 flex flex-col ">
           <img src={"/X.svg"} width={30} alt="x" />
           <div className='flex items-center justify-between'>
@@ -22,7 +22,7 @@ function App() {
           {turn === 'X' ? <img src={"/X.svg"} width={50} alt="x" /> : <img src={"/O.svg"} width={50} alt="O" />}
         </div>
         <div className="border-4 rounded-xl w-[200px] border-[#FA453B] p-5 flex flex-col ">
-
+        <img src={"/O.svg"} width={30} alt="O" />
           <div className='flex items-center justify-between'>
             <p className="font-bold text-xl ">Bot :</p>
             <p className="text-center text-2xl font-bold">{botScore}</p>
